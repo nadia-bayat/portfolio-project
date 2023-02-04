@@ -55,7 +55,8 @@ a {
 .paragraphs {
   margin: 10px;
 }
-p {
+p,
+ul {
   font-size: 18px;
   line-height: 1.5;
   color: var(--primary-color);
