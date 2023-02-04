@@ -30,25 +30,20 @@ h3 {
   font-size: 48px;
   opacity: 0.7;
 }
-.contact,
-.about {
+.link {
   padding: 20px 15px;
-  border: 1px solid #6457ff;
+  border: 1px solid #54327e;
+  background: var(--primary-color);
+  color: var(--secondary-color);
   border-radius: 5px;
   box-shadow: var(--box-shadow);
   margin: 20px;
   text-decoration: none;
-}
-.links {
   display: flex;
   justify-content: center;
 }
-.contact {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-}
-.about {
-  color: var(--primary-color);
+.link:hover {
+  color: #ffffff;
 }
 a {
   display: block;
@@ -56,15 +51,7 @@ a {
   text-align: center;
   margin-top: 0;
 }
-.email {
-  display: flex;
-  justify-content: center;
-  font-size: 28px;
-  text-decoration: none;
-}
-.email:hover {
-  text-decoration: underline;
-}
+
 .paragraphs {
   margin: 10px;
 }
