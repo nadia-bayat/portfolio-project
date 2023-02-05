@@ -36,7 +36,7 @@ h3 {
   font-size: 48px;
   opacity: 0.7;
 }
-.link {
+.elink {
   padding: 20px 15px;
   border: 1px solid #54327e;
   background: var(--primary-color);
@@ -48,14 +48,16 @@ h3 {
   display: flex;
   justify-content: center;
 }
-.link:hover {
-  color: #ffffff;
+.elink:hover {
+  color: var(--secondary-color);
+  transition: ease-in-out;
 }
 a {
   display: block;
   color: var(--primary-color);
   text-align: center;
   margin-top: 0;
+  cursor: pointer;
 }
 
 .paragraphs {
