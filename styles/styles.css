@@ -12,8 +12,9 @@ body {
   max-width: 100px;
   border-radius: 4px;
 }
-.nav-link {
-  color: var(--primary-color) !important;
+nav-link.active a,
+.nav-link a:hover {
+  color: var(--primary-color);
 }
 .photo {
   opacity: 0.9;
@@ -50,7 +51,7 @@ h3 {
 .elink:hover {
   background-color: #d0a3f3;
   color: var(--primary-color);
-  transition: all 200ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 a {
   display: block;
