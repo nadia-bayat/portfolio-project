@@ -49,8 +49,9 @@ h3 {
   justify-content: center;
 }
 .elink:hover {
-  color: var(--secondary-color);
-  transition: ease-in-out;
+  background-color: #d0a3f3;
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
 a {
   display: block;
@@ -59,7 +60,22 @@ a {
   margin-top: 0;
   cursor: pointer;
 }
-
+.register {
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 5px 25px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  transition: all 200ms ease-in-out;
+  border: none;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+.register:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
 .paragraphs {
   margin: 10px;
 }
