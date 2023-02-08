@@ -12,7 +12,11 @@ body {
   max-width: 100px;
   border-radius: 4px;
 }
-nav-link.active a,
+.nav-link {
+  font-family: var(--secondary-font-family);
+  font-size: 20px !important;
+}
+.nav-link.active a,
 .nav-link a:hover {
   color: var(--primary-color);
 }
