@@ -57,12 +57,28 @@ h3 {
   color: var(--primary-color);
   transition: all 100ms ease-in-out;
 }
-a {
-  display: block;
+footer .gmail-link {
+  text-decoration: none;
+  text-align: center;
+  font-family: var(--secondary-font-family);
+  color: var(--primary-color);
+  font-size: 20px;
+}
+.gmail-link:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+footer .gmail-logo {
+  color: var(--primary-color);
+  font-size: 30px;
+  margin-right: 10px;
+}
+footer .social-links a {
+  margin-left: 25px;
   color: var(--primary-color);
   text-align: center;
-  margin-top: 0;
   cursor: pointer;
+  font-size: 20px;
 }
 .register {
   margin: 0 auto;
